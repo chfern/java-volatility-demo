@@ -8,7 +8,7 @@ public class Main {
         @Override
         public void run() {
             int a = 0;
-            while (!ready) {
+            while (ready == false) {
                 a++;
             }
             
